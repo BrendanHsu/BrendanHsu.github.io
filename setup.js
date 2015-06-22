@@ -1,7 +1,7 @@
 function setup()
 {
 	game = new gamestate();
-	iterations = 500000;
+	iterations = 100000;
 }
 
 function gamestate()
