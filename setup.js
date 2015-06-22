@@ -27,9 +27,9 @@ function gamestate()
 		//update graphics if it's the real game.	
 		if (!this.isclone) {
 			if (this.lastPlayer == 1) {
-				$("#r" + row + "c" + col).css("background-image", "url(BrendanHsu.github.io/redtile.jpg)");
+				$("#r" + row + "c" + col).css("background-image", "url(redtile.jpg)");
 			} else {
-				$("#r" + row + "c" + col).css("background-image", "url(BrendanHsu.github.io/blacktile.jpg)");
+				$("#r" + row + "c" + col).css("background-image", "url(blacktile.jpg)");
 			}
 		};
 
